@@ -103,6 +103,16 @@ app.get('/users', (req, res) => {
   res.json({ success: true, users: users });
 });
 
+app.get('/users/:id', (req, res) => {
+  const id = parseInt(req.params.id)
+  const user = users.find(u => u.id === id)
+  if (user) {
+    res.json({ message: "user found", success: true, user: user })
+  } else {
+    res.json({ message: `user for id = ${id} no found`, success: false })
+  }
+})
+
 app.get('/', (req, res) => {
   res.send(`
     <html>
