@@ -22,7 +22,7 @@ Se instalan las dependencias con npm install.
 Se ejecuta el proyecto con npm start o node index.js.
 Al correrlo, se puede ver cómo el front se conecta con el backend y muestra la información al usuario.
 
-🧠 Qué se obtiene:
+- Qué se obtiene:
 
 Con este proyecto relacionamos:
 
@@ -32,7 +32,8 @@ Conectar el front con el backend para mostrar información.
 Usar Git y GitHub para guardar y organizar el código.
 Entender mejor cómo funciona la parte visual de una aplicación web.
 
-✅ Conclusión
+- Conclusión
 
 Este proyecto indica cómo se construye la parte visual de una aplicación y cómo se comunica con el backend.
 Aunque es un proyecto sencillo, fue útil para poner en práctica lo que he aprendido en clase y mejorar mi comprensión de cómo funcionan las aplicaciones web en conjunto.
+
